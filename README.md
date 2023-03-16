@@ -54,6 +54,20 @@ This is for training the activities recognition model, and inferring the state l
 *05_optimization:*
 This is used to optimize the activities recognition model by pre-training the network weights and thresholds.
 
-![Figure](https://github.com/ChunjingXiao/DeepSeg/blob/master/FigVisualActivitySegmentation.jpg)
+![Figure](https://github.com/liangwxsysu/LiWi-HAR/blob/master/Visual_Activities_Segementaiotn.jpg)
 <p align="center">Figure 1. Visual Inspection about start and end points of activities. </p>
+
+
+# Motivation for LiWi-HAR
+
+![Figure](https://github.com/ChunjingXiao/DeepSeg/blob/master/FigDiffThresholdSample.jpg)
+<p align="center">Figure 2. Performance of threshold-based activity segmentation methods for mixed activities. A small threshold is appropriate for the fine-grained activity but not for the coarse-grained one. And the reverse is true for a big threshold.</p>
+
+# DeepSeg Overview
+
+![Figure](https://github.com/ChunjingXiao/DeepSeg/blob/master/FigDeepSegFramework.jpg)
+<p align="center">Figure 3. DeepSeg Framework. </p>
+
+
+
 
